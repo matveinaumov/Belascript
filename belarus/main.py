@@ -28,5 +28,5 @@ text= "Мы, беларусы — мірныя людзі,\n" \
 # print(text)
 flag = AsciiArt.from_image("flag.jpg")
 flag.to_terminal()
-anthem = "/home/matvei/PycharmProjects/belarus/hymn.mp3"
+anthem = "anthem = "hymn.mp3""
 os.system(f"mpg123 -q {shlex.quote(anthem)}")
